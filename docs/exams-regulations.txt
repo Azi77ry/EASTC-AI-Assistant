@@ -1,0 +1,148 @@
+# EASTC EXAMINATIONS REGULATIONS 2024 – RAG OPTIMIZED
+
+## BASIC INFORMATION
+Document Title: EASTC Examinations Regulations 2024
+Effective Date: April 2024
+Institution: Eastern Africa Statistical Training Centre (EASTC)
+Applicability: All programs, campuses, staff, students, and examination-related bodies
+
+## KEY DEFINITIONS
+**Academic Dishonesty:** Cheating, plagiarism, fabrication, deception, sabotage  
+**Candidate:** Registered person eligible for examinations  
+**Coursework:** Quizzes, assignments, presentations, tests (excluding end-of-semester exams)  
+**Cumulative GPA:** Sum of grade points divided by total credit hours  
+**Examination Irregularity:** Any conduct violating examination regulations  
+**Plagiarism:** Using others' work without attribution  
+**Supplementary Examination:** For candidates failing first attempt  
+**Technical Failure (TF):** Scoring below minimum exam requirements regardless of overall marks  
+
+## PROGRAM LEVELS
+**NTA Level 4-5:** Basic Technician/Technician Certificate  
+**NTA Level 6:** Ordinary Diploma  
+**NTA Level 7-8:** Higher Diploma/Bachelor Degree  
+**NTA Level 9:** Master's Degree  
+**MSc. Agric. Stats:** Master of Science in Agricultural Statistics  
+
+## PASS MARK REQUIREMENTS
+**Minimum Pass Marks by Program:**  
+- Postgraduate: 50% overall per module  
+- Bachelor Degree: 40% overall per module  
+- Ordinary Diploma: 45% overall per module  
+- Certificate: 50% overall per module  
+
+**Coursework Minimum Requirements:**  
+- Undergraduate: 25% of total coursework to sit for exams  
+- Postgraduate: 50% of total coursework to sit for exams  
+
+**End of Semester Exam Minimum:**  
+- Undergraduate: 33.4% per module  
+- Postgraduate: 40% per module  
+
+## ASSESSMENT STRUCTURE
+**Undergraduate Programs:**  
+- Coursework: 40% (2 assignments 10%, 2 tests 30%)  
+- End of Semester Exam: 60%  
+- Total: 100%  
+
+**Postgraduate Programs:**  
+- Coursework: 50% (1 assignment 20%, 1 test 30%)  
+- End of Semester Exam: 50%  
+- Total: 100%  
+
+**Field/Practical Training Assessment:**  
+- Field Supervisor Assessment: 20%  
+- EASTC Supervisor Assessment: 20%  
+- Field Report: 60%  
+- Total: 100%  
+
+**Research Assessment:**  
+- Bachelor Degree Research Project: Proposal 30%, Report 70%, Pass 40%  
+- Master's Dissertation: Report 70%, Viva 30%, Pass 50%  
+
+## EXAMINATION ELIGIBILITY
+**Registration Requirements:**  
+- Official program/module registration  
+- Full fee payment for semester  
+- 75% class attendance  
+- Completed coursework  
+- Minimum coursework scores  
+- No lawful bars against student  
+
+**Maximum Registration Periods:**  
+| Program          | Duration | Maximum Period |
+|-----------------|---------|----------------|
+| Certificate      | 1 year  | 3 years        |
+| Ordinary Diploma | 2 years | 4 years        |
+| Bachelor Degree  | 3 years | 5 years        |
+| Postgraduate     | 2 years | 4 years        |
+
+## EXAMINATION CONDUCT
+**Examination Duration:**  
+- Certificate: 2 hours  
+- Ordinary Diploma: 2.5 hours  
+- Bachelor/Postgraduate: 3 hours  
+
+**Invigilation Rules:**  
+- Minimum 2 invigilators per venue  
+- Ratio: 1 invigilator per 40 candidates  
+- Chief invigilator must be academic staff  
+- No entry 30 mins after start  
+- No exit during first 30 mins or last 15 mins  
+
+**Authorized Materials:** Blue/black pens only, student ID mandatory, special facilities for disabled candidates  
+**Unauthorized Materials:** Books, notes, bags, electronic devices, food, beverages, unapproved aids  
+
+## EXAMINATION IRREGULARITIES
+**Types:** Possessing unauthorized materials, copying/communication, impersonation, removing materials, disturbances, plagiarism, marking malpractice  
+
+**Penalties:**  
+- Nullification of results: minor first offenses  
+- Repeat year: accessing/using unauthorized materials  
+- Discontinuation: repeated/habitual offenses  
+
+**Appeal Process:**  
+- Appeal within 7 working days  
+- Fee: TZS 100,000 (non-refundable)  
+- Handled by Senate Examinations & Appeals Committee  
+- Regional Senate decisions are final  
+
+## GRADING SYSTEM
+**Grade Scales by Program Level:**  
+- **NTA 4-5:** A 80-100 (4.0), B 65-79 (3.0), C 50-64 (2.0), D 40-49 (1.0), F 0-39 (0.0)  
+- **NTA 6-8:** A 75-100 (5.0), B+ 65-74 (4.0), B 55-64 (3.0), C 45-54 (2.0), D 35-44 (1.0), F 0-34 (0.0)  
+- **NTA 9/Postgraduate:** A 70-100 (5.0), B+ 60-69 (4.0), B 50-59 (3.0), C 40-49 (2.0), D 35-39 (1.0), F 0-34 (0.0)  
+
+**GPA Calculation:** GPA = Σ(Grade Point × Credit Value) / Σ(Credit Values), truncated to 1 decimal  
+
+**Minimum GPA for Progression:** Undergraduate 2.0, Postgraduate 3.0  
+
+## AWARD CLASSIFICATION
+**NTA 4-5:** First 3.5-4.0, Second 3.0-3.4, Pass 2.0-2.9  
+**NTA 6-8:** First 4.4-5.0, Upper Second 3.5-4.3, Lower Second 2.7-3.4, Pass 2.0-2.6  
+**NTA 9:** Distinction 4.4-5.0, Merit 3.5-4.3, Pass 3.0-3.4  
+
+## ACADEMIC PROGRESSION
+**Supplementary Examinations:** Once yearly, max grade "C" undergrad, "B" postgrad  
+**Carry Over Failed Modules:** Max 2 per year, maintain minimum GPA, carry over only once  
+**Repeating Modules/Years:** Max 3 failed modules, repeat max 2 years, repeat year if GPA below minimum  
+**Discontinuation Grounds:** Irregularities, disciplinary offenses, absconding, illegal admission, academic failure  
+
+## CERTIFICATION AND TRANSCRIPTS
+**Fees & Processing:**  
+- Transcripts: TZS 15,000 (local), USD 15 (foreign)  
+- Progressive Reports: TZS 5,000  
+- Processing Time: 5 working days  
+- Certificate Replacement: TZS 50,000 (after 6 months with police report)  
+
+**Certificate Signatories:**  
+- EASTC Awards: Rector & Regional Advisory Board Chairperson  
+- Academic Transcripts: Deputy Rector (ARC)/Academic Support Services Manager  
+- Provisional Results: Examinations Officer  
+
+## ADMINISTRATIVE ORGANS
+**Key Committees:** Regional Senate, Academic Board, SEAC, IEC, EIC  
+**Meeting Requirements:** Quorum 50%, Regional Senate & Academic Board quarterly, SEAC once per semester  
+
+## IMPORTANT NOTES
+**Student Responsibilities:** 75% attendance, complete coursework, pay fees, follow exam rules, report concerns  
+**Institutional Rights:** Amend regulations without notice, withhold results for fees/irregularities, Regional Senate final interpretation, regulations reviewable as needed
