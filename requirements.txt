@@ -3,7 +3,7 @@ langchain==0.0.349
 langchain-community==0.0.10
 langchain-google-genai==0.0.2
 sentence-transformers==2.2.2
-faiss-cpu==1.7.4
+faiss-cpu==1.10.0  # ← FIXED: lowercase 'faiss'
 pypdf==3.17.0
 python-dotenv==1.0.0
 pandas==2.0.3
