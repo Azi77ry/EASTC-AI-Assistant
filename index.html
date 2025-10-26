@@ -41,31 +41,51 @@
       --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.4);
     }
 
-    body {
-      font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background: var(--bg-gradient);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 16px;
-      transition: background 0.3s ease;
-    }
+    /* Watermark Solution - Text Based (Guaranteed to work) */
+body::after {
+    content: "EASTC";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 120px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.08);
+    z-index: -1;
+    pointer-events: none;
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 8px;
+}
 
-    .chat-container {
-      background: var(--bg-primary);
-      border-radius: var(--radius-lg);
-      width: 100%;
-      max-width: 440px;
-      height: 85vh;
-      max-height: 800px;
-      display: flex;
-      flex-direction: column;
-      box-shadow: var(--shadow-lg);
-      overflow: hidden;
-      transition: all 0.3s ease;
-      position: relative;
-    }
+/* Ensure body has proper stacking */
+body {
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 16px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.chat-container {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    width: 100%;
+    max-width: 440px;
+    height: 85vh;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
 
     @media (max-width: 480px) {
       .chat-container {
@@ -106,6 +126,16 @@
       justify-content: center;
       font-size: 18px;
     }
+
+   .avatar img.eastc-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* remove if you want square */
+  object-fit: contain;
+  background-color: white;
+  padding: 5px;
+}
+
 
     .header-text h2 {
       font-size: 1.25em;
@@ -481,11 +511,11 @@
     <div class="chat-header">
       <div class="header-content">
         <div class="avatar">
-          <i class="fas fa-robot"></i>
+          <img src="https://eastc.ac.tz/images/logo.png" alt="EASTC Logo" class="eastc-logo">
         </div>
         <div class="header-text">
           <h2>EASTC AI Assistant</h2>
-          <div class="status online">Online • Ready to assist</div>
+          <div class="status online">Powered By Aziry Tech</div>
         </div>
       </div>
       <div class="header-actions">
@@ -544,10 +574,6 @@
           onkeypress="handleKeyPress(event)"
           autocomplete="off"
         >
-        <div class="input-actions">
-          <i class="fas fa-paperclip input-icon" title="Attach file"></i>
-          <i class="fas fa-microphone input-icon" title="Voice input"></i>
-        </div>
       </div>
       <button onclick="sendMessage()" id="sendBtn">
         <i class="fas fa-paper-plane"></i>
@@ -559,31 +585,37 @@
     // Initialize with current time
     document.getElementById('initial-time').textContent = getCurrentTime();
 
-    // Theme management
-    function toggleTheme() {
-      const body = document.body;
-      const currentTheme = body.getAttribute('data-theme');
-      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      body.setAttribute('data-theme', newTheme);
-      
-      // Update theme icon
-      const themeIcon = document.querySelector('.fa-moon');
-      if (newTheme === 'dark') {
-        themeIcon.className = 'fas fa-sun';
-      } else {
-        themeIcon.className = 'fas fa-moon';
-      }
-      
-      // Save preference
-      localStorage.setItem('chat-theme', newTheme);
-    }
+    // 🌗 Theme management with default light mode
+function toggleTheme() {
+  const body = document.body;
+  const currentTheme = body.getAttribute('data-theme');
+  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+  setTheme(newTheme);
+}
 
-    // Load saved theme
-    const savedTheme = localStorage.getItem('chat-theme') || 'light';
-    document.body.setAttribute('data-theme', savedTheme);
-    if (savedTheme === 'dark') {
-      document.querySelector('.fa-moon').className = 'fas fa-sun';
-    }
+function setTheme(theme) {
+  const body = document.body;
+  const themeIcon = document.querySelector('.fa-moon, .fa-sun');
+
+  body.setAttribute('data-theme', theme);
+
+  // Update theme icon
+  if (theme === 'dark') {
+    themeIcon.className = 'fas fa-sun';
+  } else {
+    themeIcon.className = 'fas fa-moon';
+  }
+
+  // Save preference
+  localStorage.setItem('chat-theme', theme);
+}
+
+// Apply saved theme (or default to light)
+window.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('chat-theme') || 'light';
+  setTheme(savedTheme);
+});
+    // 🌟 Chat functionality
 
     async function sendMessage() {
       const input = document.getElementById("userInput");
